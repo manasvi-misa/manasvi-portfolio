@@ -38,7 +38,7 @@ export default function Hero() {
       <div className="hero-content">
         <p className="hero-eyebrow" ref={null}>
           <span className="eyebrow-line" />
-          <span>hey there 👋 i'm</span>
+          <span>Hey there, I am</span>
         </p>
 
         <h1 className="hero-title" ref={titleRef}>
