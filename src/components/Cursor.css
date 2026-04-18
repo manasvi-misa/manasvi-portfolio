@@ -1,0 +1,43 @@
+.cursor-dot {
+  position: fixed;
+  top: -4px;
+  left: -4px;
+  width: 8px;
+  height: 8px;
+  background: var(--accent);
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 9999;
+  transition: width 0.2s, height 0.2s, background 0.2s;
+  will-change: transform;
+}
+
+.cursor-ring {
+  position: fixed;
+  top: -18px;
+  left: -18px;
+  width: 36px;
+  height: 36px;
+  border: 1.5px solid rgba(108, 63, 196, 0.6);
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 9998;
+  transition: width 0.3s, height 0.3s, border-color 0.3s;
+  will-change: transform;
+}
+
+.cursor-dot.hovering {
+  width: 12px;
+  height: 12px;
+  background: var(--accent2);
+  top: -6px;
+  left: -6px;
+}
+
+.cursor-ring.hovering {
+  width: 56px;
+  height: 56px;
+  top: -28px;
+  left: -28px;
+  border-color: var(--accent);
+}
