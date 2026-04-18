@@ -105,7 +105,7 @@ export default function Projects() {
         </div>
 
         <div className="projects-note reveal">
-          <span className="note-mono">// more on GitHub →</span>
+          <span className="note-mono">{'// more on GitHub →'}</span>
           <a href="https://github.com/manasvi-saxena" target="_blank" rel="noreferrer" className="github-link" data-hover>
             github.com/manasvi-saxena
           </a>
